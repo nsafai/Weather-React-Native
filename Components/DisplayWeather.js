@@ -5,6 +5,7 @@ const DisplayWeather = (props) => {
   return (
       <View style={styles.container}>
         <Text style={styles.temp}>72˚</Text>
+        <Text style={styles.description}>Mostly Sunny</Text>
       </View>
   )
 }
@@ -20,5 +21,9 @@ const styles = StyleSheet.create({
   temp: {
     fontSize: 40,
     fontWeight: 'bold',
+    textAlign: 'center',
+  },
+  description: {
+    textAlign: 'center',
   }
 })
